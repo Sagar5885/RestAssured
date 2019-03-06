@@ -1,0 +1,11 @@
+13:19:17.735 [main] ERROR alfa.Demo - log error!
+13:19:17.738 [main] FATAL alfa.Demo - log fatal!
+13:20:56.001 [main] DEBUG beta.Demo - I am debuggin!
+13:20:56.005 [main] INFO  beta.Demo - log info!
+13:20:56.005 [main] ERROR beta.Demo - log error!
+13:20:56.005 [main] FATAL beta.Demo - log fatal!
+13:21:56.776 [main] DEBUG beta.Demo - I am debuggin!
+13:21:56.779 [main] INFO  beta.Demo - log info!
+13:21:56.780 [main] ERROR beta.Demo - log error!
+13:21:56.780 [main] FATAL beta.Demo - log fatal!
+13:22:07.445 [main] DEBUG beta.Demo - I am debuggin!
