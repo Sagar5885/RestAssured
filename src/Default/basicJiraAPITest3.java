@@ -16,6 +16,7 @@ public class basicJiraAPITest3 {
         RestAssured.baseURI= "http://localhost:8080";
         Response res=given().header("Content-Type", "application/json").
                 header("Cookie","JSESSIONID="+getSessionKEY()).
+                pathParam("commentId", "10022").
                 body("{\n" +
                         "    \"body\": \"Update Existing Comment Through REST API with Automation\",\n" +
                         "    \"visibility\": {\n" +
@@ -23,7 +24,7 @@ public class basicJiraAPITest3 {
                         "        \"value\": \"Administrators\"\n" +
                         "    }\n" +
                         "}").when().
-                put("/rest/api/2/issue/10028/comment/10022").then().statusCode(200).extract().response();
+                put("/rest/api/2/issue/10028/comment/{commentId}").then().statusCode(200).extract().response();
         JsonPath js= rawToJson(res);
         String id=js.get("id");
         System.out.println(id);

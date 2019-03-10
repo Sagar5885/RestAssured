@@ -85,6 +85,8 @@ Download Maven:
 
 Create Empty folder and run:
 mvn archetype:generate -DgroupId=sagarrestassured -DartifactId=reassuredwithmevanjava -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=SagarRestAssuredTestFW -DartifactId=ReassuredTestWithMevanJava -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
 To create new mevan project
 Then run mvn eclipse:eclipse to make it eclipse ready
 
@@ -127,3 +129,7 @@ nc -v 10.37.73.62 9200
 ps aux | grep node
 kill -9 PROCESS_ID
 killall node
+
+
+TestNG:
+Create testng.xml file with sts/eclipse - right click on projest select testng option create .xml
