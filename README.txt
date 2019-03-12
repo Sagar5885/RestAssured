@@ -4,6 +4,7 @@ its java api (dsl) to test REST API
 
 http://dummy.restapiexample.com/
 https://github.com/rest-assured/rest-assured/wiki/Usage#xml-using-xmlpath
+Hashmap: https://github.com/rest-assured/rest-assured/wiki/Usage#create-json-from-a-hashmap
 
 Some reference:
 https://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assuredhttps://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assured
@@ -133,3 +134,12 @@ killall node
 
 TestNG:
 Create testng.xml file with sts/eclipse - right click on projest select testng option create .xml
+
+
+Excell Reader:
+Poi Dependancies:
+https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+https://mvnrepository.com/artifact/org.apache.poi/poi/3.17
+
+Postman:
+https://www.getpostman.com/collections/545e59dc1edee31b1db7
